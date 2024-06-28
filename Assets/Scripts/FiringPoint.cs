@@ -18,6 +18,7 @@ public class FiringPoint : MonoBehaviour
     private void Start()
     {
         activeProjectile = projectilePrefab1;
+        laser.gameObject.SetActive(false);
     }
     void Update()
     {
